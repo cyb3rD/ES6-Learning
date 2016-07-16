@@ -1,3 +1,3 @@
-import {projectId} from 'module1.js';
+import {projectId} from './module1.js';
 
 console.log(projectId);

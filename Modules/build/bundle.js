@@ -44,11 +44,29 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__(1);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
 	'use strict';
 	
-	var _module = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"module1.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _module = __webpack_require__(2);
 	
 	console.log(_module.projectId);
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var projectId = exports.projectId = 99;
 
 /***/ }
 /******/ ]);
