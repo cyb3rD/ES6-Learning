@@ -5,6 +5,7 @@ var invoice = {
     number: 234,
     process: function(){
         return () => console.log(this.number);
+        // this refers to the context in which it apperars
     }
 };
 
